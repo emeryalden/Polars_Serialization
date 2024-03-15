@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "polars-serialization"
+version = "0.1.0"
+description = ""
+authors = ["emeryalden <102205009+emeryalden@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^0.20.15"
+pyarrow = "^15.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
